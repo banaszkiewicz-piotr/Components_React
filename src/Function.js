@@ -1,6 +1,6 @@
-function Function(){
+function Function(props){
     return (
-        <img src="logo.svg" alt="logo"></img>
+        <img src={props.source} alt="logo"></img>
     );
 }
 
