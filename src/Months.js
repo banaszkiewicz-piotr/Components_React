@@ -1,3 +1,5 @@
+import Function from "./Function";
+
 function Months() {
     return (
         <>
@@ -52,6 +54,7 @@ function Months() {
                 <p>31</p>
             </li>
         </ol>
+        <Function/>
         </>
     );
 }

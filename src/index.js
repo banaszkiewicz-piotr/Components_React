@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Months from './Months';
+import Function from './Function';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,9 @@ root.render(
     <App />
   </React.StrictMode>*/
   <Months />
+);
+root.render(
+  <Function/>
 );
 
 // If you want to start measuring performance in your app, pass a function
